@@ -1,0 +1,8 @@
+file jsr.obj
+memory Input1 3
+memory Input2 4
+memory Option 1
+break set End_Main
+continue
+translate Output
+quit

@@ -1,0 +1,10 @@
+// Symbol table
+// Scope level 0:
+//	Symbol Name       Page Address
+//	----------------  ------------
+//	DSR               3008
+//	FOO               3016
+//	L1                3001
+//	L2                3003
+//	PROMPT            300A
+//	DDR               3009

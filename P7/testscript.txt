@@ -1,0 +1,5 @@
+file printnum.obj
+memory option 
+memory data1 #789
+memory data2 #10
+continue

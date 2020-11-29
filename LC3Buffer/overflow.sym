@@ -1,0 +1,15 @@
+// Symbol table
+// Scope level 0:
+//	Symbol Name       Page Address
+//	----------------  ------------
+//	PrivateFunction   3015
+//	RetValue          3023
+//	ProcessHexData    3007
+//	Main              3000
+//	SecretMessage     3029
+//	ParamValue        3022
+//	Stack             3021
+//	Message           3024
+//	Break1            3006
+//	Break2            3014
+//	Break3            3020

@@ -1,0 +1,479 @@
+file string.obj
+memory OS_QUIET 1
+memory Option 3
+memory String1 x4000
+memory x4000 x0041
+memory x4001 x0062
+memory x4002 x0063
+memory x4002 x0064
+memory x4003 x0000
+register R0 x75A1
+register R1 xBE84
+register R2 x20FC
+register R3 x5D13
+register R4 x9AD4
+register R5 xABCD
+register R6 xEF01
+register R7 x28FF
+break set x3024
+continue
+register PC x3025
+break set x3028
+continue
+translate Result
+
+file string.obj
+memory OS_QUIET 1
+memory Option 3
+memory String1 x4000
+memory x4000 x0000
+register R0 x75A1
+register R1 xBE84
+register R2 x20FC
+register R3 x5D13
+register R4 x9AD4
+register R5 xABCD
+register R6 xEF01
+register R7 x28FF
+break set x3024
+continue
+register PC x3025
+break set x3028
+continue
+translate Result
+
+file string.obj
+memory OS_QUIET 1
+memory Option 4
+memory String1 x4000
+memory x4000 x0041
+memory x4001 x0042
+memory x4002 x0043
+memory x4003 x0064
+memory x4004 x0000
+memory String2 x4100
+memory x4104 xFFFF
+register R0 x75A1
+register R1 xBE84
+register R2 x20FC
+register R3 x5D13
+register R4 x9AD4
+register R5 xABCD
+register R6 xEF01
+register R7 x28FF
+break set x302A
+continue
+register PC x302B
+next
+next
+next
+print R0
+translate x4100
+translate x4101
+translate x4102
+translate x4103
+translate x4104
+break set x3030
+continue
+
+file string.obj
+memory OS_QUIET 1
+memory Option 4
+memory String1 x4000
+memory x4000 x0000
+memory String2 x4100
+memory x4100 xFFFF
+register R0 x75A1
+register R1 xBE84
+register R2 x20FC
+register R3 x5D13
+register R4 x9AD4
+register R5 xABCD
+register R6 xEF01
+register R7 x28FF
+break set x302A
+continue
+register PC x302B
+next
+next
+next
+print R0
+translate x4100
+break set x3030
+continue
+
+file string.obj
+memory OS_QUIET 1
+memory Option 5
+memory String1 x4000
+memory x4000 x0046
+memory x4001 x0069
+memory x4002 x0072
+memory x4003 x0073
+memory x4004 x0074
+memory x4005 x0020
+memory x4006 x0000
+memory x400C xFFFF
+memory String2 x4100
+memory x4100 x0053
+memory x4101 x0065
+memory x4102 x0063
+memory x4103 x006F
+memory x4104 x006E
+memory x4105 x0064
+memory x4106 x0000
+register R0 x75A1
+register R1 xBE84
+register R2 x20FC
+register R3 x5D13
+register R4 x9AD4
+register R5 xABCD
+register R6 xEF01
+register R7 x28FF
+break set x3032
+continue
+register PC x3033
+break set x3034
+continue
+register PC x3035
+next
+next
+next
+print R0
+translate x400C
+break set x303A
+continue
+
+file string.obj
+memory OS_QUIET 1
+memory Option 5
+memory String1 x4000
+memory x4000 x0046
+memory x4001 x0069
+memory x4002 x0072
+memory x4003 x0073
+memory x4004 x0074
+memory x4005 x0000
+memory String2 x4100
+memory x4100 x0000
+register R0 x75A1
+register R1 xBE84
+register R2 x20FC
+register R3 x5D13
+register R4 x9AD4
+register R5 xABCD
+register R6 xEF01
+register R7 x28FF
+break set x3032
+continue
+register PC x3033
+break set x3034
+continue
+register PC x3035
+next
+next
+next
+print R0
+translate x4005
+break set x303A
+continue
+
+file string.obj
+memory OS_QUIET 1
+memory Option 5
+memory String1 x4000
+memory x4000 x0000
+memory x4006 xFFFF
+memory String2 x4100
+memory x4100 x0053
+memory x4101 x0065
+memory x4102 x0063
+memory x4103 x006F
+memory x4104 x006E
+memory x4105 x0064
+memory x4106 x0000
+register R0 x75A1
+register R1 xBE84
+register R2 x20FC
+register R3 x5D13
+register R4 x9AD4
+register R5 xABCD
+register R6 xEF01
+register R7 x28FF
+break set x3032
+continue
+register PC x3033
+break set x3034
+continue
+register PC x3035
+next
+next
+next
+print R0
+translate x4006
+break set x303A
+continue
+
+file string.obj
+memory OS_QUIET 1
+memory Option 6
+memory String1 x4000
+memory x4000 x0053
+memory x4001 x0061
+memory x4002 x006D
+memory x4003 x0065
+memory x4004 x0000
+memory String2 x4100
+memory x4100 x0053
+memory x4101 x0061
+memory x4102 x006D
+memory x4103 x0065
+memory x4104 x0000
+register R0 x75A1
+register R1 xBE84
+register R2 x20FC
+register R3 x5D13
+register R4 x9AD4
+register R5 xABCD
+register R6 xEF01
+register R7 x28FF
+break set x303C
+continue
+register PC x303D
+break set x303E
+continue
+register PC x303F
+next
+next
+next
+break set x3043
+continue
+
+file string.obj
+memory OS_QUIET 1
+memory Option 6
+memory String1 x4000
+memory x4000 x004D
+memory x4001 x006F
+memory x4002 x0072
+memory x4003 x0065
+memory x4004 x0000
+memory String2 x4100
+memory x4100 x004C
+memory x4101 x0065
+memory x4102 x0073
+memory x4103 x0073
+memory x4104 x0000
+register R0 x75A1
+register R1 xBE84
+register R2 x20FC
+register R3 x5D13
+register R4 x9AD4
+register R5 xABCD
+register R6 xEF01
+register R7 x28FF
+break set x303C
+continue
+register PC x303D
+break set x303E
+continue
+register PC x303F
+next
+next
+next
+break set x3043
+continue
+
+file string.obj
+memory OS_QUIET 1
+memory Option 6
+memory String1 x4000
+memory x4000 x0053
+memory x4001 x0061
+memory x4002 x006D
+memory x4003 x0065
+memory x4004 x0000
+memory String2 x4100
+memory x4100 x0053
+memory x4101 x0061
+memory x4102 x006D
+memory x4103 x0000
+register R0 x75A1
+register R1 xBE84
+register R2 x20FC
+register R3 x5D13
+register R4 x9AD4
+register R5 xABCD
+register R6 xEF01
+register R7 x28FF
+break set x303C
+continue
+register PC x303D
+break set x303E
+continue
+register PC x303F
+next
+next
+next
+break set x3043
+continue
+
+file string.obj
+memory OS_QUIET 1
+memory Option 6
+memory String1 x4000
+memory x4000 x004C
+memory x4001 x0065
+memory x4002 x0073
+memory x4003 x0073
+memory x4004 x0000
+memory String2 x4100
+memory x4100 x004D
+memory x4101 x006F
+memory x4102 x0072
+memory x4103 x0065
+memory x4104 x0000
+register R0 x75A1
+register R1 xBE84
+register R2 x20FC
+register R3 x5D13
+register R4 x9AD4
+register R5 xABCD
+register R6 xEF01
+register R7 x28FF
+break set x303C
+continue
+register PC x303D
+break set x303E
+continue
+register PC x303F
+next
+next
+next
+break set x3043
+continue
+
+file string.obj
+memory OS_QUIET 1
+memory Option 6
+memory String1 x4000
+memory x4000 x0053
+memory x4001 x0061
+memory x4002 x006D
+memory x4003 x0000
+memory String2 x4100
+memory x4100 x0053
+memory x4101 x0061
+memory x4102 x006D
+memory x4103 x0065
+memory x4104 x0000
+register R0 x75A1
+register R1 xBE84
+register R2 x20FC
+register R3 x5D13
+register R4 x9AD4
+register R5 xABCD
+register R6 xEF01
+register R7 x28FF
+break set x303C
+continue
+register PC x303D
+break set x303E
+continue
+register PC x303F
+next
+next
+next
+break set x3043
+continue
+
+file string.obj
+memory OS_QUIET 1
+memory Option 6
+memory String1 x4000
+memory x4000 x004D
+memory x4001 x006F
+memory x4002 x0072
+memory x4003 x0065
+memory x4004 x0000
+memory String2 x4100
+memory x4100 x0000
+register R0 x75A1
+register R1 xBE84
+register R2 x20FC
+register R3 x5D13
+register R4 x9AD4
+register R5 xABCD
+register R6 xEF01
+register R7 x28FF
+break set x303C
+continue
+register PC x303D
+break set x303E
+continue
+register PC x303F
+next
+next
+next
+break set x3043
+continue
+
+file string.obj
+memory OS_QUIET 1
+memory Option 6
+memory String1 x4000
+memory x4000 x0000
+memory String2 x4100
+memory x4100 x004C
+memory x4101 x0065
+memory x4102 x0073
+memory x4103 x0073
+memory x4104 x0000
+register R0 x75A1
+register R1 xBE84
+register R2 x20FC
+register R3 x5D13
+register R4 x9AD4
+register R5 xABCD
+register R6 xEF01
+register R7 x28FF
+break set x303C
+continue
+register PC x303D
+break set x303E
+continue
+register PC x303F
+next
+next
+next
+break set x3043
+continue
+
+file string.obj
+memory OS_QUIET 1
+memory Option 6
+memory String1 x4000
+memory x4000 x0000
+memory String2 x4100
+memory x4100 x0000
+register R0 x75A1
+register R1 xBE84
+register R2 x20FC
+register R3 x5D13
+register R4 x9AD4
+register R5 xABCD
+register R6 xEF01
+register R7 x28FF
+break set x303C
+continue
+register PC x303D
+break set x303E
+continue
+register PC x303F
+next
+next
+next
+break set x3043
+continue
+
+quit

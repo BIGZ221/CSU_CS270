@@ -1,0 +1,28 @@
+// Symbol table
+// Scope level 0:
+//	Symbol Name       Page Address
+//	----------------  ------------
+//	negDivRemLoop1    3080
+//	negDivRemLoop2    3081
+//	digits            303B
+//	divRem            306C
+//	testGetDigit      3014
+//	option            3001
+//	data1             3002
+//	data2             3003
+//	overNeg           309D
+//	negSign           303A
+//	divRemLoop        3079
+//	Main              3005
+//	testPrintNum      300D
+//	endDivRem         308B
+//	printNum          3091
+//	testingbreak      30A7
+//	stackBase         3004
+//	testDivRem        301C
+//	getDigit          3060
+//	endTest           3026
+//	endMsg            3029
+//	theEnd            3028
+//	breakste          30A5
+//	printNumQZ        30AF

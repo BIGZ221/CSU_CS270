@@ -1,0 +1,15 @@
+// Symbol table
+// Scope level 0:
+//	Symbol Name       Page Address
+//	----------------  ------------
+//	mirror            3007
+//	Eight             3005
+//	Result            3003
+//	loopStart         3013
+//	LSloopend         3012
+//	Mask              3006
+//	skipLine          3017
+//	loopEnd           301B
+//	One               3004
+//	LSloopbegin       300E
+//	Param             3002

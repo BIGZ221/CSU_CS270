@@ -1,0 +1,7 @@
+file P5.obj
+break set x3048
+memory Option #5
+memory Param1 xA357
+memory Param2 x0001
+memory Result x0000
+continue
